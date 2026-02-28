@@ -1,0 +1,49 @@
+# ============================================================
+#  PentaKit — API Keys Configuration
+#  Copy this file to api_keys.yaml and fill in your keys
+#  All APIs listed here are 100% FREE
+# ============================================================
+
+# ── 100% Free — No key needed ────────────────────────────────
+# crt.sh, NVD NIST, OSV, EPSS, CISA KEV, Wayback CDX,
+# DNSDumpster, Robtex, HaveIBeenPwned (basic), ThreatFox
+
+# ── Free tier — Key required (free signup) ───────────────────
+
+# GitHub API — 5000 req/hour free
+# https://github.com/settings/tokens
+github_token: ""
+
+# VirusTotal — 4 req/min free
+# https://www.virustotal.com/gui/join-us
+virustotal_api_key: ""
+
+# AlienVault OTX — unlimited free
+# https://otx.alienvault.com/api
+alienvault_api_key: ""
+
+# URLScan.io — 1000/day free
+# https://urlscan.io/user/signup
+urlscan_api_key: ""
+
+# Shodan — free tier (basic searches)
+# https://account.shodan.io/register
+shodan_api_key: ""
+
+# ViewDNS — free tier
+# https://viewdns.info/api/
+viewdns_api_key: ""
+
+# ── Notifications (optional) ─────────────────────────────────
+
+# Telegram Bot — free
+# Create bot via @BotFather on Telegram
+telegram_bot_token: ""
+telegram_chat_id: ""
+
+# Slack Webhook — free
+# https://api.slack.com/messaging/webhooks
+slack_webhook_url: ""
+
+# Discord Webhook — free
+discord_webhook_url: ""

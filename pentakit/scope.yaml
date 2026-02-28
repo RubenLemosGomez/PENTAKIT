@@ -1,0 +1,28 @@
+# ============================================================
+#  PentaKit — Scope Configuration
+#  ONLY targets listed here will be scanned
+#  PentaKit will REFUSE to operate outside this scope
+# ============================================================
+
+# Add your authorized targets below
+# Examples:
+#   - example.com
+#   - *.example.com         (all subdomains)
+#   - 192.168.1.0/24        (IP range)
+#   - 10.0.0.1              (single IP)
+
+targets: []
+  # - your-authorized-target.com
+  # - *.your-authorized-target.com
+
+# Bug bounty program info (optional — included in reports)
+program:
+  name: ""
+  platform: ""     # HackerOne / Bugcrowd / Intigriti / YesWeHack
+  url: ""
+
+# Authorized tester info (included in reports)
+tester:
+  name: ""
+  contact: ""
+  date: ""
